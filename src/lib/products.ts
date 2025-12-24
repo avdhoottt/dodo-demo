@@ -8,10 +8,10 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    product_id: "pdt_0NUlGVB7NxOrR1InDq7EC",
+    product_id: "pdt_001",
     name: "Basic Plan",
     description: "Get access to basic features and support",
-    price: 100, // in cents ($1.00)
+    price: 9999, // in cents
     features: [
       "Access to basic features",
       "Email support",
@@ -20,10 +20,10 @@ export const products: Product[] = [
     ],
   },
   {
-    product_id: "pdt_0NUlGXZKD0F89ILXZWAWd",
+    product_id: "pdt_002",
     name: "Premium Plan",
     description: "Get access to premium features and support",
-    price: 200, // in cents ($2.00)
+    price: 19999, // in cents
     features: [
       "Access to all features",
       "Priority 24/7 support",
